@@ -1,0 +1,40 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 2
+  own: 2
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - website
+hosts:
+- host: api.baraklabs.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: baraklabs.com
+  role: api
+  relation: own
+- host: baraklabs.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  - Documentation
+  - Blog
+  - TermsOfService
+  - PrivacyPolicy
+  serves:
+  - hosting
+  vendor: vercel
+  registrable_domain: baraklabs.com
+  role: website
+  relation: own

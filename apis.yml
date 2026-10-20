@@ -1,23 +1,61 @@
 aid: baraklabs
+
 name: Baraklabs
-description: 'Baraklabs is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://baraklabs.com/images/og/default-og.png
+
+description: 'Baraklabs builds SaaS products and open‑source software, offering tools like Amplibee for cross‑platform social posting, Oyekool for influencer audience monetisation, Doculigent for AI‑enhanced meeting transcription, and Ditto for mock API services. The company shares engineering insights through a blog and open‑source repositories, helping developers create scalable applications and AI‑native features. Baraklabs focuses on community‑driven development, providing resources, consulting, and product engineering services to accelerate startup growth and product innovation.'
+
 url: https://raw.githubusercontent.com/api-evangelist/baraklabs/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- SaaS
+- Open-Source
+- Developer Tools
+- AI
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/baraklabs-hosts.yml
+- type: Vendors
+  url: vendors/baraklabs-vendors.yml
+- type: DomainSecurity
+  url: security/baraklabs-domain-security.yml
 - type: Website
   url: https://baraklabs.com/
+- type: Documentation
+  url: https://baraklabs.com/
+- type: Blog
+  url: https://baraklabs.com/blogs/
+- type: TermsOfService
+  url: https://baraklabs.com/policies/terms/
+- type: PrivacyPolicy
+  url: https://baraklabs.com/policies/privacy/
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

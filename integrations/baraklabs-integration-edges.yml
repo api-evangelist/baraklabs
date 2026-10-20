@@ -1,0 +1,16 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/baraklabs/integrations
+- https://n8n.io/integrations/baraklabs/
+- https://composio.dev/toolkits/baraklabs
+- https://monid.ai/tools/baraklabs
+checked:
+- https://composio.dev/toolkits/baraklabs
+- https://monid.ai/tools/baraklabs
+- https://n8n.io/integrations/baraklabs/
+- https://zapier.com/apps/baraklabs/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
